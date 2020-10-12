@@ -1,0 +1,218 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*--------------------*/
+body {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.logo-image {
+	width: 500px;
+}
+
+.header-logo {
+	margin-bottom: 40px;
+}
+
+.header-nav {
+	margin-bottom: 40px;
+}
+
+.header-nav li {
+	display: inline-block;
+	margin-right: 60px;
+}
+
+.header-nav li a {
+	font-size: 16px;
+	color: slateblue;
+}
+
+.header-nav li a:visited {
+	color: seagreen;
+}
+
+.header-nav li a:hover {
+	text-decoration: line-through;
+	color: tomato;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+}
+
+.attention {
+	position: fixed;
+	top: 0;
+	color: red;
+	background-color: white;
+}
+
+.important {
+	font-weight: 700;
+}
+
+.page-title {
+	margin-bottom: 40px;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+h1:hover {
+	text-transform: uppercase;
+}
+
+h2 {
+	text-align: center;
+	font-size: 25px;
+	letter-spacing: 2px;
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: underline overline;
+	margin-bottom: 10px;
+	word-spacing: 5px;
+}
+
+.main-wrapper {
+	text-align: left;
+}
+
+.setting {
+	font-size: 17px;
+}
+
+section p {
+	text-indent: 30px;
+	margin-bottom: 20px;
+	line-height: 16px;
+}
+
+.jp {
+	font-family: 'Kosugi Maru', sans-serif;
+	color: midnightblue;
+}
+
+.transcription {
+	font-style: italic;
+	text-decoration: underline;
+	color: darkslategrey;
+}
+
+footer {
+	text-align: right;
+}
+
+.pre-wiki {
+	font-size: 12px;
+	font-weight: 700;
+}
+
+footer a {
+	font-size: 13px;
+	color: orangered;
+}
+
+footer a:visited {
+	color: orange;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	font-weight: 700;
+}
